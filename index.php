@@ -6,16 +6,51 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="GET">
-      <input type="text" name="person">
-      <button>SUBMIT</button>
-</form>
+    
        
+ 
   <?php
-  //This gets something from the database
-  function(){
-    dksahoifasoifas
-  }
+    //Arithemtic Operators
+    echo 5**5;
+
+    ?>
+    <hr>
+    <?php
+    //Assignment Operators
+    $x = 100;
+    $x /= 20;
+
+    echo $x;
+    ?>
+    <hr>
+     <?php
+     //Comparison Operators
+     $x = 10;
+     $y = 10;
+
+     if($x <> $y) {
+    echo "True!";
+     }
+     else{
+      echo "False!";
+     }
 ?>
+<hr>
+ <?php
+ //Increment/Decrement Operators
+ $x = 10;
+ echo $x--;
+ echo $x;
+?>
+<hr>
+ <?php
+ $x = 20;
+ $y = 20;
+
+ if ($x == $y xor 1 == 1) {
+  echo "True";
+ }
+?>
+
 </body>
 </html>
