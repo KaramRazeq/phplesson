@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,6 +29,18 @@ echo "<br>";
     newCalc($x);
 
     ?>
+     <?php
+    
+  
+    $_SESSION['username'] = "karam is da best";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])) {
+        echo "you are not logged in";
+    } else {
+        echo "you are logged in!";
+    }
+  ?>
   </body>
 </html>
 

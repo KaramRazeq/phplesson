@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,6 +25,7 @@
 </form>
 <p>The answer is:</p>
 <?php
+
 if (isset($_GET['submit'])) {
     $result1 = $_GET['num1'];
     $result2 = $_GET['num2'];
@@ -50,4 +52,16 @@ if (isset($_GET['submit'])) {
 
 }
 ?>
+ <?php
+    
+  
+    $_SESSION['username'] = "karam is da best";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])) {
+        echo "you are not logged in";
+    } else {
+        echo "you are logged in!";
+    }
+  ?>
   </body>

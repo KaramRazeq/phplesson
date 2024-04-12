@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
     <?php
+    
     //String
     $name = 'Coding is fun';
 
@@ -28,6 +30,18 @@
     echo $names['2'];
 
     ?>
+     <?php
+    
+  
+    $_SESSION['username'] = "karam is da best";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])) {
+        echo "you are not logged in";
+    } else {
+        echo "you are logged in!";
+    }
+  ?>
   </body>
 </html>
    

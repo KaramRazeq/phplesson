@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
     
     <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
@@ -35,4 +37,15 @@
       </div>
     </div>
   </nav>
+  <?php
     
+  
+    $_SESSION['username'] = "karam is da best";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])) {
+        echo "you are not logged in";
+    } else {
+        echo "you are logged in!";
+    }
+  ?>
