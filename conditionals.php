@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,42 +9,46 @@
   <body>
     <h1>Hello, world!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
-    <?php
-    echo str_replace("Karam","Chaddydaddy", "Hi Chaddydaddy");
-    ?>
-    
-    <?php
+  <?php
+$x = 8;
 
-    
-
-    function newCalc($x){
-        $newnr = $x * 0.75;
-        echo "Here is 75% of what you wrote: ".$newnr;
-    }
-
-
-    $x = 100;
-    newCalc($x);
-
-echo "<br>";
-
-    $a = 100;
-    newCalc($x);
-
-    ?>
-     <?php
-    
-  
-    $_SESSION['username'] = "karam is da best";
-    echo $_SESSION['username'];
-
-    if (!isset($_SESSION['username'])) {
-        echo "you are not logged in";
-    } else {
-        echo "you are logged in!";
-    }
+if ($x == 1){
+    echo "Chad is a cutie";
+}
+elseif($x == 2){
+    echo "Chad maybe a cutie";
+}
+elseif($x == 3){
+    echo "Chad maybe a cutie";
+}
+elseif($x == 4){
+    echo "Chad maybe a cutie";
+}
+else {   
+    echo "Chad is HANDSOME";
+}
   ?>
-  </body>
-</html>
+  <?php
+  $x = "number";
 
+  switch ($x) {
+case 1:
+    echo "The answer is 1";
+  break;
+  case 2:
+    echo "The answer is 2";
+  break;
+  case 3:
+    echo "The answer is 3";
+  break;
+  case 4:
+    echo "The answer is 4";
+  break;
+  default:
+  echo "There is no answer";
+  }
+  ?>
+
+ 
+    
+  </body>

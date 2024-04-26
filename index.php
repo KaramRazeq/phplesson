@@ -9,6 +9,19 @@
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+<nav>
+  <a href="#">
+  <img src="" alt="">
+  </a>
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">About me</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</header>
     <?php
     include 'includes/headers.php';
     ?>

@@ -65,3 +65,10 @@ if (isset($_GET['submit'])) {
     }
   ?>
   </body>
+  create tables posts (
+    id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    subject varchar(128) not null,
+    content varchar(1000) not null,
+    data datetime not null
+    );
+    insert into posts (subject, content, date) VALUES ('PE', 'WE play basketball and become MVPs.', '2024-4-16 7:40:01');
