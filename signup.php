@@ -1,5 +1,5 @@
 <?php
-    require "includes/header.php";
+    require "includes/headers.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
